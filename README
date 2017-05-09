@@ -1,0 +1,17 @@
+Program that finds stem loops based on following rules:
+
+
+ Rule 1: substring length >= 12 and <=100
+ Rule 2: A ‘GNRA’ motif is at the center of the subsequence
+ Rule 3: The subsequence contains at least 4 pairs of complementary
+         nucleotides.
+ Rule 4: Each half of each complementary pair must be located equidistant from
+         the center of the ‘GNRA’ motif as shown in the diagram of the hairpin
+         structure above.
+ Rule 5: Both nucleotides of one of the complementary pairs must be a distance
+         of <= 2 from either end of the ‘GNRA’ motif
+ Rule 6: At least 70% of nucleotides in a complementarity region must be
+         participating in a pairing interaction.
+
+
+Right now, only set up to take specific input. Will modify to take file from command line soon
